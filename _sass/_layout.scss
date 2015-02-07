@@ -1,0 +1,278 @@
+/**
+ * Site header
+ */
+.site-header {
+    // Positioning context for the mobile navigation icon
+    position: relative;
+    height: 30px;
+}
+
+.site-title {
+  color: #CCC;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+    text-transform: uppercase;
+    transition: all 200ms ease;
+
+    &:visited {
+      color: #CCC;
+      text-decoration: none;
+    }
+
+    &:hover, &:focus, &:active, {
+      color: #AAA;
+      text-decoration: none;
+    }
+}
+
+.site-nav {
+    float: right;
+    line-height: 66px;
+    text-transform: lowercase;
+    color: #AAA;
+
+    a, a:visited {
+      color: #AAA;
+      transition: all 200ms ease;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .page-link {
+        color: #AAA;
+        line-height: $base-line-height;
+        text-decoration: underline;
+
+        &:hover {
+          color: #888;
+        }
+
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 20px;
+        }
+    }
+
+    @include media-query($on-palm) {
+        position: absolute;
+        top: 9px;
+        right: 10px;
+        background-color: $background-color;
+        border: 1px solid $grey-color-light;
+        border-radius: 5px;
+        text-align: right;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $grey-color-dark;
+                }
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+            text-decoration: none;
+        }
+    }
+}
+
+
+
+/**
+ * Site footer
+ */
+.site-footer {
+    background-image: url('/assets/flourish-center-1.png');
+    background-repeat: no-repeat;
+    background-position: center calc(100% - 30px);
+    border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit 0 ($spacing-unit * 3) 0;
+}
+
+.site-footer div p.text {
+  color: #AAA;
+  text-align: center;
+}
+
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: $spacing-unit / 2;
+}
+
+.footer-col-wrapper {
+    font-size: 15px;
+    color: $grey-color;
+    margin-left: -$spacing-unit / 2;
+    @extend %clearfix;
+}
+
+.footer-col {
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+}
+
+.footer-col-1 {
+    width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+    width:         calc(25% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-3 {
+    width: -webkit-calc(75% - (#{$spacing-unit} / 2));
+    width:         calc(75% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-palm) {
+  .site-footer {
+    padding-top: 0;
+  }
+
+  .footer-col {
+    padding: 0;
+  }
+
+  .footer-col-1 {
+    border-bottom: 1px solid #DDD;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    float: none;
+    margin-bottom: 0;
+
+    &:nth-child(4n) {
+      margin-bottom: 20px;
+    }
+  }
+
+  p.text {
+    font-size: $small-font-size;
+    line-height: 1.6em;
+    padding: 0 1em;
+  }
+}
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: $spacing-unit 0;
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+
+
+
+/**
+ * Posts
+ */
+
+ .post {
+   border-top: 2px solid #EAEAEA;
+   padding: 2em 2.4em 0;
+   position: relative;
+ }
+
+.post-header {
+  margin: 0;
+
+  h1 {
+    float: left;
+  }
+
+  .post-meta {
+    float: right;
+  }
+
+  &:after {
+    display: block;
+    content: " ";
+    clear: both;
+  }
+}
+
+.post-title {
+    font-size: 2.4em;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin: 0;
+    margin-bottom: 28px;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+@include media-query($on-palm) {
+  .post {
+    font-size: 0.8em;
+
+    .post-title {
+      font-size: 2.6em;
+      float: none;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+
+    .post-meta {
+      position: absolute;
+      top: 0;
+    }
+  }
+}
