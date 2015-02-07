@@ -4,7 +4,7 @@
 .site-header {
     // Positioning context for the mobile navigation icon
     position: relative;
-    height: 30px;
+    height: 40px;
 }
 
 .site-title {
@@ -194,7 +194,7 @@
     padding: $spacing-unit 0;
 }
 
-.page-heading {
+header .page-heading {
     font-size: 20px;
 }
 
