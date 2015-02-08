@@ -1,3 +1,15 @@
+.post-list {
+  .post-meta {
+    background-color: #EEE;
+    display: block;
+    padding-left: 1em;
+  }
+
+  .post-meta + h2 {
+    padding: 0.5em 0 0.5em 0.5em;
+  }
+}
+
 /**
  * Site header
  */
