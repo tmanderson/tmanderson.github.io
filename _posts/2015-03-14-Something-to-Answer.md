@@ -29,7 +29,7 @@ $$
   50 * 3600 = 180,000
 $$
 
-With $\frac{10m}/{s^2}$ being a simple matter to deal with, along with
+With $\frac{10m}{s^2}$ being a simple matter to deal with, along with
 the conversion of *seconds* to *hours* – I thought I had it figured out in
 no time.
 
@@ -38,12 +38,16 @@ agree with the given answer, and either way, I still know that the problem
 *can* be solved in this manner, but it's clearly not the ideal or simpler
 way to do so.
 
-One though was "Oh, I don't think we accounted for the seconds squared"
-which then led me to think "Maybe that's why one function for the value
-of centripedal acceleration is **velocity squared** divided by two
-times $\pi$ time $r$" which then led to my current best guess as to the
-complexity (or maybe not complex, but over-thinking) is that this conversion
-really requires us to **integrate** the acceleration of 5 gees.
+One thought was:
+> Oh, I don't think we accounted for the seconds squared
+
+which then led me to think
+> Maybe that's why one function for the value of centripedal acceleration is
+> **velocity squared** divided by two times $\pi$ time $r$
+
+which then led to my current best guess as to the complexity (or maybe not
+complex, but over-thinking) is that this conversion really requires us to
+**integrate** the acceleration of `5 gees`.
 
 If integration is the answer, this then leads to our acceleration being a
 velocity that we can then use to interact with the pilots stated initial
