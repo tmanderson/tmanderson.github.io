@@ -17,17 +17,20 @@ along the lines of:
 
 Now, I took a difficult approach initially. Though, the initial questions
 I had were:
-- 5 gees = $5 \times \frac{9.8m}{s^2}$
-- $\frac{600km}{\text{hr}}$ is a nice and simple value
+
+1. 5 gees = $5 \times \frac{9.8m}{s^2}$
+2. $\frac{600km}{\text{hr}}$ is a nice and simple value
 
 and from there I decided to convert `5 gees` to km/hr. Which first lead me
 to
 
+<figure>
 $$
   9.8 \approx 10 \\\
   5 \times 10 = 50 \\\
   50 * 3600 = 180,000
 $$
+</figure>
 
 With $\frac{10m}{s^2}$ being a simple matter to deal with, along with
 the conversion of *seconds* to *hours* – I thought I had it figured out in
@@ -38,10 +41,12 @@ agree with the given answer, and either way, I still know that the problem
 *can* be solved in this manner, but it's clearly not the ideal or simpler
 way to do so.
 
-One thought was:
+One thought was
+
 > Oh, I don't think we accounted for the seconds squared
 
 which then led me to think
+
 > Maybe that's why one function for the value of centripedal acceleration is
 > **velocity squared** divided by two times $\pi$ time $r$
 
