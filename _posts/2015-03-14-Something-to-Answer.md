@@ -2,16 +2,16 @@
 layout: post
 title:  "Something to Answer #1"
 date:   2015-03-14 08:18:00
-categories: something-to-answer, unanswered, forces, physics
+categories: something-to-answer-unanswered
 ---
-
-### Centripedal Forces
 
 <small style="color:#ccc">These posts are for logging purposes. The goal is to preserve my
 original inqueries into problems or concepts that I had trouble initially
 understanding. This way I may be able to explain the concepts in the
 future while keeping a potentially unique point-of-view (that may be spoiled
 and forgotten once the concept is learned.</small>
+
+### Centripedal Forces
 
 Given a typical Physics question (within the realm of centripedal forces)
 along the lines of:
