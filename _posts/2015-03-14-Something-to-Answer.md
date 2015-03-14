@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Something to Answer 1"
-date:   2015-02-07 11:56:00
+title:  "Something to Answer #1"
+date:   2015-03-14 08:18:00
 categories: something-to-answer, unanswered, forces, physics
 ---
 
-## Centripedal Forces
+### Centripedal Forces
 
 <small style="color:#ccc">These posts are for logging purposes. The goal is to preserve my
 original inqueries into problems or concepts that I had trouble initially
