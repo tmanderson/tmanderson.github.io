@@ -246,6 +246,7 @@ header .page-heading {
 
   h1 {
     float: left;
+    margin-bottom: 0.6em;
   }
 
   .post-meta {
@@ -257,6 +258,18 @@ header .page-heading {
     content: " ";
     clear: both;
   }
+
+  small.notice {
+    background-color: #EFEFEF;
+    border: 1px solid #BBB;
+    font-size: 0.7em;
+    clear: both;
+    display: block;
+    color: #AAA;
+    padding: 1em;
+    line-height: 1.8em;
+  }
+
 }
 
 .post-title {

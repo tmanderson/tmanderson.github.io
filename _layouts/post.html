@@ -15,6 +15,13 @@ MathJax.Hub.Config({
       {{ page.date | date: "%b %-d, %Y" }}
       {% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }} <br /> {% endif %}
     </p>
+    {% if page.notice %}
+    <small class="notice">
+      {% if page.notice == "something-to-answer" %}
+        These posts are for logging purposes. The goal is to preserve my original inqueries into problems or concepts that I had trouble initially understanding. This way I may be able to explain the concepts in the future while keeping a potentially unique point-of-view (that may be spoiled and forgotten once the concept is learned).
+      {% endif %}
+    </small>
+    {% endif %}
   </header>
 
   <article class="post-content">
