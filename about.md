@@ -1,7 +1,7 @@
 ---
-layout: page
 title: A General Notice
-permalink: /about/
+permalink: "/about/"
+layout: page
 ---
 
 ##### *For the curious and judgmental*

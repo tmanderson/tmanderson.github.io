@@ -1,9 +1,10 @@
 ---
+title: 'Something to Answer #1'
+date: 2015-03-14 08:18:00 Z
+categories:
+- something-to-answer-unanswered
 layout: post
-title:  "Something to Answer #1"
-notice: "something-to-answer"
-date:   2015-03-14 08:18:00
-categories: something-to-answer-unanswered
+notice: something-to-answer
 ---
 
 ### Centripedal Forces

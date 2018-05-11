@@ -1,8 +1,9 @@
 ---
+title: 'Honing Intuition #1'
+date: 2015-04-01 06:48:03 Z
+categories:
+- intuition
 layout: post
-title:  "Honing Intuition #1"
-date:   2015-04-01 06:48:03
-categories: intuition
 ---
 
 ### Derivatives of a Product
