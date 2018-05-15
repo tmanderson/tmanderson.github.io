@@ -41,11 +41,12 @@
 
     Array.from(document.querySelectorAll('script[type="math/tex; mode=display"]')).forEach(el => {
       var p = document.createElement('p');
-      p.innerText = el.innerText = el.innerText.replace(/\s*% <![CDATA[/g, '').replace(/\s*%]]>/g, '');
+      var content = el.innerText.replace(/\s*% <![CDATA[/g, '').replace(/\s*%]]>/g, '');
       try {
-        katex.render(el.innerText, p, { displayMode: true });
+        p.innerHTML = katex.renderToString(content, { displayMode: true });
       } catch(e) {
         console.warn('KaTeX error. Falling back to image LaTeX');
+        console.log(content);
         console.error(e);
         p.innerHTML = '<img src="https://latex.codecogs.com/gif.latex?' + el.innerText + '" />';
       }
