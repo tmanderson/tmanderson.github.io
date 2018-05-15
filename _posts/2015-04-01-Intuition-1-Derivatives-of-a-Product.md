@@ -65,7 +65,7 @@ us to easily solve for the limit for both $f$ and $g$. So, we can solve for $f(x
 
 $$
 \begin{aligned}
-F^\prime(x) &= \lim_{x \to 0} \frac{f(x + \Delta x)k - f(x)k}{\Delta x} \\\
+F^\prime(x) &= \lim_{x \to 0} \frac{f(x + \Delta x)k - f(x)k}{\Delta x} \\
             &= k \lim_{x \to 0} \frac{f(x + \Delta x) - f(x)}{\Delta x}
 \end{aligned}
 $$
@@ -77,7 +77,7 @@ to $l$.
 
 $$
 \begin{aligned}
-F^\prime(x) &= \lim_{x \to 0} \frac{g(x + \Delta x)l - g(x)l}{\Delta x} \\\
+F^\prime(x) &= \lim_{x \to 0} \frac{g(x + \Delta x)l - g(x)l}{\Delta x} \\
             &= l \lim_{x \to 0} \frac{g(x + \Delta x) - g(x)}{\Delta x}
 \end{aligned}
 $$
