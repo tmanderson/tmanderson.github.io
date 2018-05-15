@@ -161,6 +161,11 @@ pre {
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
+    width: 90vw;
+    
+    @media screen and (min-width: 1440px) {
+      max-width: 960px;
+    }
 
     @include media-query($on-laptop) {
         padding-right: $spacing-unit / 2;
@@ -168,7 +173,6 @@ pre {
     }
 
     @include media-query($on-palm) {
-        max-width: 960px;
         padding-right: $spacing-unit / 4;
         padding-left: $spacing-unit / 4;
     }
