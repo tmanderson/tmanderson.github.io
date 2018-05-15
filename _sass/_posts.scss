@@ -34,8 +34,10 @@ article {
     -webkit-font-smoothing: antialiased;
     cursor: text;
     position: relative;
-    
     break-after: avoid-column;
+  }
+  
+  h1:first-of-type, h2:first-of-type, h3:first-of-type {
     column-span: all;
   }
 
@@ -91,7 +93,9 @@ article {
     line-height: 1.6em; }
 
   p, blockquote, ul, ol, dl, li, table, pre {
-    margin: 2em 0; }
+    break-inside: avoid;
+    margin: 2em 0;
+  }
 
   hr {
     background-color: #888;
