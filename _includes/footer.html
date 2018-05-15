@@ -37,10 +37,10 @@
     .forEach(function(element) {
       if(!/\$\$?.*?\$\$?/g.test(element.innerText)) return;
       element.innerHTML = element.innerHTML.replace(/(\$\$?)(.+?)\$\$?/g, function(match, fence, latex) {
-        return try {
-          katex.renderToString(latex, { displayMode: fence.length === 2 })
+        try {
+          return katex.renderToString(latex, { displayMode: fence.length === 2 });
         } catch(e) {
-          console.error(e);
+          return '<img src="https://latex.codecogs.com/gif.latex?' + latex + '" />';
         }
       })
     })
