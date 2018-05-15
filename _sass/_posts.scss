@@ -3,11 +3,7 @@
 
 :root {
   --control-text-color: #777;
-}
-
-html, body {
-  font-size: 18px;
-}
+};
 
 article {
   font-family: "Merriweather", serif;
@@ -350,41 +346,20 @@ article {
     font-size: 1.13rem;
   }
 
-  body {
-    font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", "STSong", Serif;
-    line-height: 1.5rem;
-    font-weight: 400;
-  }
-
-  #write {
-    max-width: 914px;
-    color: #333;
-  }
-
   img {
     width: auto;
     max-width: 100%;
-  }
-  body {
-    font-size: 1.5rem;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-  }
-
-  .md-table-edit {
-    background: #ededed;
-      padding-top: 4px;
   }
 
   table {
     width: 100%;
     font-size: 1.125rem;
   }
+  
   table > thead > tr > th,
   table > thead > tr > td,
-  table > t& > tr > th,
-  table > t& > tr > td,
+  table > tbody > tr > th,
+  table > tbody > tr > td,
   table > tfoot > tr > th,
   table > tfoot > tr > td {
     padding: 12px;
