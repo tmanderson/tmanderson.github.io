@@ -41,7 +41,7 @@
 
     Array.from(document.querySelectorAll('script[type="math/tex; mode=display"]')).forEach(el => {
       var p = document.createElement('p');
-      p.innerText = el.innerText;
+      p.innerText = el.innerText = el.innerText.replace(/\s*% <![CDATA[/g, '').replace(/\s*%]]>/g, '');
       try {
         katex.render(el.innerText, p, { displayMode: true });
       } catch(e) {
