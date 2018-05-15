@@ -4,7 +4,6 @@ date: 2018-05-15 18:35:00 Z
 ---
 
 ### Quaternions
-
 Here's a [fantastic explanation](^1) of the complex _space_, which illustrates _why_ the complex values of a quaternion _appear_ to have no correlation to imaginary arithmetic (but, it in fact does and makes plenty of sense!):
 
 $i,j,k$ are not imaginary numbers. Imaginary numbers arise only when you are talking about the complex plane $\mathbb{C}$, which has a very simple one to one mapping with the 2-D plane $\mathbb{R}^2$. Quaternions arise when you are talking about three dimensions, i.e. looking for solutions to $x2+1=0$ in 3-D.
