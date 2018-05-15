@@ -98,7 +98,8 @@ article {
   }
   
   p + blockquote, p + ol, p + ul {
-   break-after: always; 
+    break-after: always; 
+    break-before: avoid;
   }
   
   img + p {
