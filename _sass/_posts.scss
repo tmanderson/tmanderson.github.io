@@ -8,6 +8,10 @@
 article {
   font-family: "Merriweather", serif;
   padding: 0.8em 0 3em;
+  
+  @media screen and (min-width: 1080px) {
+    columns: 2;
+  }
 
   a {
     color: #4183C4; }
@@ -30,6 +34,12 @@ article {
     -webkit-font-smoothing: antialiased;
     cursor: text;
     position: relative;
+    
+    break-after: avoid-column;
+    
+    & > :first-child {
+      column-span: all;
+    }
   }
 
   h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
