@@ -5,9 +5,12 @@
   --control-text-color: #777;
 }
 
+html, body {
+  font-size: 18px;
+}
+
 article {
   font-family: "Merriweather", serif;
-  font-size: 18px;
   padding: 0.8em 0 3em;
 
   a {
