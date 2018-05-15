@@ -34,7 +34,7 @@ intuition" to myself I grazed a while over the 6-line proof and thought a bit.
 
 The proof in question is:
 
-$$\begin{align}
+$$\begin{aligned}
 F^\prime(x)
 &= \lim_{x \to 0}
 \frac{
@@ -67,7 +67,7 @@ F^\prime(x)
 }{
     \Delta x
 }
-\end{align}$$
+\end{aligned}$$
 
 The rest was handled by previously stated theorems. However, it was the middle equation above
 where the intuition just dropped off for me. After looking at the equation for some time, I 
@@ -81,20 +81,20 @@ $$k = g(x + \Delta x) \\\l = f(x)$$
 then, these values can replace their respective counterparts in the middle equation, allowing
 us to easily solve for the limit for both $f$ and $g$. So, we can solve for $f(x)$ as follows:
 
-$$\begin{align}
+$$\begin{aligned}
 F^\prime(x) &= \lim_{x \to 0} \frac{f(x + \Delta x)k - f(x)k}{\Delta x} \\\
             &= k \lim_{x \to 0} \frac{f(x + \Delta x) - f(x)}{\Delta x}
-\end{align}$$
+\end{aligned}$$
 
 Now, at this point we have **solved** for $f^\prime(x)$, which leads us to the whole "compensation"
 bit I stated earlier. We have already "accounted" for the limit of $f(x)$, and now all we need to
 do is account for $g(x)$, hence why we need only make the constant for $g$ the value we assigned
 to $l$.
 
-$$\begin{align}
+$$\begin{aligned}
 F^\prime(x) &= \lim_{x \to 0} \frac{g(x + \Delta x)l - g(x)l}{\Delta x} \\\
             &= l \lim_{x \to 0} \frac{g(x + \Delta x) - g(x)}{\Delta x}
-\end{align}$$
+\end{aligned}$$
 
 While this has no concrete or real-world meaning, it allowed to see some "abstract" balancing between
 the values of $f$ and $g$ as we were finding the derivative through a limit. You can see that we have
