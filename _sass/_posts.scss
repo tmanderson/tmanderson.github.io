@@ -11,6 +11,8 @@ article {
   
   @media screen and (min-width: 1080px) {
     columns: 2;
+    column-rule: 1px solid #AAA;
+    column-gap: 8em;
   }
 
   a {
