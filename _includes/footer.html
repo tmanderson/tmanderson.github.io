@@ -37,10 +37,15 @@
     renderMathInElement(document.body, {
       delimiters: [
         {left: "$$", right: "$$", display: true},
-        {left: "$", right: "$", display: false},
-        {left:'<script type="math/tex; mode=display">% <![CDATA[', right: ' %]]></script>', display: true },
-        {left: '<script type="math/tex; mode=display">', right: '</script>', display: true}
+        {left: "$", right: "$", display: false}
       ]
+    });
+
+    Array.from(document.querySelectorAll('script[type="math/tex; mode=display"]')).forEach(el => {
+      var p = document.createElement('p');
+      p.innerText = el.innerText;
+      katex.render(el.innerText, p, { displayMode: true });
+      el.parentNode.replaceChild(p, el);
     });
   });
 </script>
