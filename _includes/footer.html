@@ -1,5 +1,5 @@
 <footer class="site-footer">
-
+  
   <div class="wrapper">
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">{{ site.title }}</div>
@@ -32,3 +32,16 @@
   </div>
 
 </footer>
+<script type="text/javascript">
+  Array.from(document.querySelectorAll('article p'))
+    .forEach(function(element) {
+      if(!/\$\$?.*?\$\$?/g.test(element.innerText)) return;
+      element.innerHTML = element.innerHTML.replace(/(\$\$?)(.+?)\$\$?/g, function(match, fence, latex) {
+        return try {
+          katex.renderToString(latex, { displayMode: fence.length === 2 })
+        } catch(e) {
+          console.error(e);
+        }
+      })
+    })
+</script>
