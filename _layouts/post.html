@@ -21,13 +21,4 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
-  <script type="text/javascript">
-    Array.from(document.querySelectorAll('article p'))
-      .forEach(function(element) {
-        if(!/\$\$?.*?\$\$?/g.test(element.innerText)) return;
-        element.innerHTML = element.innerHTML.replace(/(\$\$?)(.+?)\$\$?/g, function(match, fence, latex) {
-          return katex.renderToString(latex, { displayMode: fence.length === 2 });
-        })
-      })
-  </script>
 </div>
