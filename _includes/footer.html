@@ -36,7 +36,7 @@
   document.addEventListener("DOMContentLoaded", function() {
     renderMathInElement(document.body, {
       delimiters: [{left: "$", right: "$", display: false}],
-      delimiters: [{left: "$$", right: "$$", display: false}]
+      delimiters: [{left: "$$", right: "$$", display: true}]
     });
 
     Array.from(document.querySelectorAll('script[type="math/tex; mode=display"]')).forEach(el => {
