@@ -25,8 +25,8 @@ Answer: 16+17=33
 
 ### Question 2
 
-xy + 1 is divisible by 24
-is x + y also divisible by 24?
+$xy + 1$ is divisible by 24
+is $x + y$ also divisible by 24?
 
 Two properties come to mind:
 
@@ -55,9 +55,9 @@ What are the multiples of 24?
 
 $$
 \begin{gathered}
-5 \times 19 + 1 =& 96 &= 24 \times 4 \\
-5 \times 43 + 1 =& 216 &= 24 \times 9 \\
-5 \times 67 + 1 =& 336 &= 24 \times 14 \\
+5 \times 19 + 1 =& 96 &= 24 \times 4 \cr
+5 \times 43 + 1 =& 216 &= 24 \times 9 \cr
+5 \times 67 + 1 =& 336 &= 24 \times 14 \cr
 \end{gathered}
 $$
 
@@ -69,7 +69,7 @@ $$
 | 4    | 96-5=91 |
 
 $$
-y_n=24n-5 \\
+y_n=24n-5 \cr
 y_n = \frac{24 \times (4 + 5(n-1))}{5} - 1
 $$
 
