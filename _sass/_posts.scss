@@ -94,16 +94,16 @@ article {
     margin: 20px 0 40px;
   }
 
-  body > h2:first-child {
+  & > h2:first-child {
     margin-top: 0;
     padding-top: 0; }
-  body > h1:first-child {
+  & > h1:first-child {
     margin-top: 0;
     padding-top: 0; }
-    body > h1:first-child + h2 {
+    & > h1:first-child + h2 {
       margin-top: 0;
       padding-top: 0; }
-  body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  & > h3:first-child, & > h4:first-child, & > h5:first-child, & > h6:first-child {
     margin-top: 0;
     padding-top: 0; }
 
@@ -379,8 +379,8 @@ article {
   }
   table > thead > tr > th,
   table > thead > tr > td,
-  table > tbody > tr > th,
-  table > tbody > tr > td,
+  table > t& > tr > th,
+  table > t& > tr > td,
   table > tfoot > tr > th,
   table > tfoot > tr > td {
     padding: 12px;
