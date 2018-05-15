@@ -21,3 +21,6 @@ url: http://tmanderson.github.io
 twitter_username: tmanderson
 github_username: tmanderson
 markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: katex
