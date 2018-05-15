@@ -311,20 +311,20 @@ article {
   h1,
   .h1,
   .f1 {
-    font-size: 2rem;
-    line-height: 2.5rem;
+    font-size: 2em;
+    line-height: 2.5em;
   }
   h2,
   .h2,
   .f2 {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.5em;
+    line-height: 2em;
   }
   h3,
   .h3,
   .f3 {
-    font-size: 1.25rem;
-    line-height: 1.5rem;
+    font-size: 1.25em;
+    line-height: 1.5em;
   }
   p,
   .p,
@@ -338,12 +338,12 @@ article {
   pre[cid],
   div[cid],
   #typora-source {
-    font-size: 1.125rem;
-    line-height: 1.5rem;
+    font-size: 1.125em;
+    line-height: 1.5em;
   }
 
   h4 {
-    font-size: 1.13rem;
+    font-size: 1.13em;
   }
 
   img {
@@ -353,7 +353,7 @@ article {
 
   table {
     width: 100%;
-    font-size: 1.125rem;
+    font-size: 1.125em;
   }
   
   table > thead > tr > th,
@@ -400,7 +400,7 @@ article {
     color: #7a7a7a;
     padding: 1.125em;
     margin-bottom: 0.88em;
-    font-size: 1rem;
+    font-size: 1em;
     border: 1px solid #7a7a7a;
   }
 
@@ -416,7 +416,7 @@ article {
   }
 
   blockquote footer {
-    font-size: .85rem;
+    font-size: .85em;
     font-style: normal;
     background-color: #fff;
     color: #7a7a7a;
@@ -444,19 +444,19 @@ article {
   @media screen and (min-width: 48em) {
     .h1,
     h1 {
-      font-size: 3.250rem;
+      font-size: 3.250em;
     }
     .h2,
     h2 {
-      font-size: 2.298rem;
+      font-size: 2.298em;
     }
     .h3,
     h3 {
-      font-size: 1.625rem;
+      font-size: 1.625em;
     }
     .h4,
     h4 {
-      font-size: 1.3rem;
+      font-size: 1.3em;
     }
     #write>h4.md-focus:before,
     #write>h5.md-focus:before,
@@ -466,52 +466,52 @@ article {
     .p,
     p,
     li {
-      font-size: 1.25rem;
+      font-size: 1.25em;
       line-height: 1.8;
     }
     table {
-      font-size: 1.25rem;
+      font-size: 1.25em;
     }
   }
   @media (max-width: 48em) {
     blockquote {
-      margin-left: 1rem;
+      margin-left: 1em;
       margin-right: 0;
       padding: 0.5em;
     }
     .h1,
     h1 {
-      font-size: 2.827rem;
+      font-size: 2.827em;
     }
     .h2,
     h2 {
-      font-size: 1.999rem;
+      font-size: 1.999em;
     }
     .h3,
     h3 {
-      font-size: 1.413rem;
+      font-size: 1.413em;
     }
     .h4,
     h4 {
-      font-size: 1.3rem;
+      font-size: 1.3em;
     }
   }
   @media screen and (min-width: 64em) {
     .h1,
     h1 {
-      font-size: 4.498rem;
+      font-size: 4.498em;
     }
     .h2,
     h2 {
-      font-size: 2.29rem;
+      font-size: 2.29em;
     }
     .h3,
     h3 {
-      font-size: 1.9rem;
+      font-size: 1.9em;
     }
     .h4,
     h4 {
-      font-size: 1.591rem;
+      font-size: 1.591em;
     }
     #write>h4.md-focus:before{
       top:4px;
