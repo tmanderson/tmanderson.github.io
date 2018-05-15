@@ -18,6 +18,3 @@ url: http://tmanderson.github.io
 twitter_username: tmanderson
 github_username: tmanderson
 gfm_quirks: paragraph_end
-kramdown:
-  input: GFM
-  math_engine: katex
