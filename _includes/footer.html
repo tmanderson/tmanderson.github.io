@@ -33,15 +33,12 @@
 
 </footer>
 <script type="text/javascript">
-  Array.from(document.querySelectorAll('article p'))
-    .forEach(function(element) {
-      if(!/\$\$?.*?\$\$?/g.test(element.innerText)) return;
-      element.innerHTML = element.innerHTML.replace(/(\$\$?)(.+?)\$\$?/g, function(match, fence, latex) {
-        try {
-          return katex.renderToString(latex, { displayMode: fence.length === 2 });
-        } catch(e) {
-          return '<img src="https://latex.codecogs.com/gif.latex?' + latex + '" />';
-        }
-      })
-    })
+  document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+      delimiters: [
+        {left: "$$", right: "$$", display: true},
+        {left: "$", right: "$", display: false}
+      ]
+    });
+  });
 </script>
