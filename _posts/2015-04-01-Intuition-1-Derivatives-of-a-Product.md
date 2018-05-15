@@ -40,9 +40,9 @@ F^\prime(x)
 &= \lim_{x \to 0}
 \frac{F(x + \Delta x) - F(x)}{\Delta x} = \lim_{x \to 0}
 \frac{f(x + \Delta x)g(x + \Delta x) - f(x)g(x)}{\Delta x}
-\\\ \\\
+\\
 &= \frac{f(x + \Delta x)g(x + \Delta x) - f(x)g(x + \Delta x) + f(x)g(x + \Delta x) - g(x)f(x)}{\Delta x}
-\\\ \\\
+\\
 &= \lim_{x \to 0}
 \frac{f(x + \Delta x) - f(x)}{\Delta x}
 \lim_{x \to 0} g(x + \Delta x) +
