@@ -37,7 +37,9 @@
     renderMathInElement(document.body, {
       delimiters: [
         {left: "$$", right: "$$", display: true},
-        {left: "$", right: "$", display: false}
+        {left: "$", right: "$", display: false},
+        {left:'<script type="math/tex; mode=display">% <![CDATA[', right: ' %]]></script>', display: true },
+        {left: '<script type="math/tex; mode=display">', right: '</script>', display: true}
       ]
     });
   });
