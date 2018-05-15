@@ -1,4 +1,8 @@
 .post-list {
+  @media screen (min-width: 1080px) {
+    columns: 2;
+  }
+  
   .post-meta {
     background-color: #EEE;
     display: block;
@@ -145,6 +149,12 @@
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
+  
+  & + div {
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: 14px;
+  }
 }
 
 .footer-col {
