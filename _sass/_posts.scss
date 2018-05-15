@@ -96,6 +96,14 @@ article {
     break-inside: avoid;
     margin: 2em 0;
   }
+  
+  p + blockquote, p + ol, p + ul {
+   break-after: always; 
+  }
+  
+  img + p {
+    break-after: always;
+  }
 
   hr {
     background-color: #888;
