@@ -36,10 +36,7 @@ article {
     position: relative;
     
     break-after: avoid-column;
-    
-    & > :first-child {
-      column-span: all;
-    }
+    column-span: all;
   }
 
   h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
