@@ -433,6 +433,14 @@ article {
     color: #7a7a7a;
     border-color: transparent;
   }
+  
+  .footnotes {
+    font-size: 8px;
+    column-span: all;
+    margin-top: 50px;
+    border-top: 1px solid #AAA;
+    padding-top: 20px;
+  }
 
   h1,
   .h1,
