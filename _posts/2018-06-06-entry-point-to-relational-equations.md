@@ -44,7 +44,7 @@ $$
   2x=b_2+b_3 \\
   x = \frac{b_2+b_3}{2}
 \end{array}
-\hspace{1.5em}
+\hspace{1em}
 \begin{array}{l}
   b_2=x-y+z \\ \\
   y=x+z-b_2 \\
@@ -53,7 +53,7 @@ $$
   2y = b_1-b_2 \\
   y =\frac{b_1-b_2}{2} \\ \\\\\\\\\\\\\\\\\\
 \end{array}
-\hspace{1.5em}
+\hspace{1em}
 \begin{array}{l}
   b_3=x+y-z \\ \\ \\ \\ \\ \\ \\
   z=x+y-b_3 \\
