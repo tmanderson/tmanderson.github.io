@@ -39,7 +39,7 @@ $$
   b_1=x+y+z \\
   x=b_1-y-z \\ \\ \\ \\ \\ \\\\\\\\\\\\
   x=b_1-\frac{b_1-b_2}{2}-\frac{b_1-b_3}{2} \\
-  2x=\cancel{2b_1}-\cancel{b_1}-b_2-\cancel{b_1}+b_3 \\
+  2x=\cancel{2b_1}-\cancel{2b_1}+b_2+b_3 \\
   2x=b_2+b_3 \\
   x = \frac{b_2+b_3}{2}
 \end{array}
