@@ -1,6 +1,9 @@
 ---
-title: Entry Point To Relational Equations
-date: 2018-06-06 00:00:00 Z
+title: 'Entry Point To Relational Equations'
+date: 2018-06-06 16:03:00 Z
+categories:
+- thoughts
+layout: post
 ---
 
 # Entry-Point to Relational Equations
