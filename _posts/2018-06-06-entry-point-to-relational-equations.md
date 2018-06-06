@@ -15,15 +15,16 @@ Recently, while viewing a fantastic [Herbert Gross lecture](https://www.youtube.
 So, I started with Mr. Gross' example – solving two of the simplest equations:
 
 $$
-\begin{array}
-  bb_1=x+y \\
+\require{cancel}
+\begin{array}{l}
+  b_1=x+y \\
   x=b_1-y \\
   \\ \\ \\
   x=b_1-\frac{b_1-b_2}{2}
 \end{array}
 \hspace{1.5em}
-\begin{array}
-  xx-y=b_2 \\ \\
+\begin{array}{l}
+  x-y=b_2 \\ \\
   x-b_2=y \\
   b_1-y-b_2=y \\
   b_1-b_2=2y \\
@@ -34,26 +35,26 @@ $$
 My first thought when seeing the values here was that *x* and *y* both have the appearance of a fractional value. So, quickly intuition (reactionary) seemed to suggest that "maybe these are averages, relative to dimension, represent the weight of each variable". So, in order to see if this was true in the next dimension, I tried three equations in three unknowns:
 
 $$
-\begin{array}
-  bb_1=x+y+z \\
+\begin{array}{l}
+  b_1=x+y+z \\
   x=b_1-y-z \\ \\ \\ \\ \\ \\\\\\\\\\\\
   x=b_1-\frac{b_1-b_2}{2}-\frac{b_1-b_3}{2} \\
-  2x=\bcancel{2b_1}-\bcancel{b_1}-b_2-\bcancel{b_1}+b_3 \\
+  2x=\cancel{2b_1}-\cancel{b_1}-b_2-\cancel{b_1}+b_3 \\
   2x=b_2+b_3 \\
   x = \frac{b_2+b_3}{2}
 \end{array}
-\begin{array}
-  bb_2=x-y+z \\ \\
+\begin{array}{l}
+  b_2=x-y+z \\ \\
   y=x+z-b_2 \\
-  y=(b_1-y\bcancel{-z})+\bcancel{z}-b_2 \\
+  y=(b_1-y\cancel{-z})+\cancel{z}-b_2 \\
   y = b_1-y-b_2 \\
   2y = b_1-b_2 \\
   y =\frac{b_1-b_2}{2} \\ \\\\\\\\\\\\\\\\\\
 \end{array}
-\begin{array}
-  bb_3=x+y-z \\ \\ \\ \\ \\ \\ \\
+\begin{array}{l}
+  b_3=x+y-z \\ \\ \\ \\ \\ \\ \\
   z=x+y-b_3 \\
-  z=(b_1\bcancel{-y}-z)+\bcancel{y}-b_3 \\
+  z=(b_1\cancel{-y}-z)+\cancel{y}-b_3 \\
   z=b_1-z-b_3 \\
   2z=b_1-b_3 \\
   z=\frac{b_1-b_3}{2}\\\\\\\\\\
