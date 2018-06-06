@@ -34,7 +34,7 @@ My first thought when seeing the values here was that *x* and *y* both have the 
 
 $$
 \require{cancel}
-\tiny{
+\small{
 \begin{array}{l}
   b_1=x+y+z \\
   x=b_1-y-z \\ \\ \\ \\ \\ \\\\\\\\\\\\
