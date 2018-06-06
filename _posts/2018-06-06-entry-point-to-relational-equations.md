@@ -34,6 +34,7 @@ My first thought when seeing the values here was that *x* and *y* both have the 
 
 $$
 \require{cancel}
+\small{
 \begin{array}{l}
   b_1=x+y+z \\
   x=b_1-y-z \\ \\ \\ \\ \\ \\\\\\\\\\\\
@@ -58,6 +59,7 @@ $$
   2z=b_1-b_3 \\
   z=\frac{b_1-b_3}{2}\\\\\\\\\\
 \end{array}
+}
 $$
 
 My intuition was, unsurprisingly, incorrect. However, what is revealed here was pretty striking to me, while I feel that many who are much more familiar with mathematics than myself may see this as something _given_ or just plain _obvious_, for me this was the "intuitional" foundation I'd been looking for.
