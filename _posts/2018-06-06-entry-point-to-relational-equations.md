@@ -1,3 +1,8 @@
+---
+title: Entry Point To Relational Equations
+date: 2018-06-06 00:00:00 Z
+---
+
 # Entry-Point to Relational Equations
 
 I've been actively working with linear algebra for the past year or so, and this whole time I've always had this deep-seeded feeling that I was still missing some fundamental detail to help explain _why_ multiple equations sharing the same variables can reveal an interrelation between the equations involved.
