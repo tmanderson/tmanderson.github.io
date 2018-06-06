@@ -22,11 +22,11 @@ $$
 \end{array}
 \hspace{1.5em}
 \begin{array}{l}
-  x-y=b_2 \\ \\
-  x-b_2=y \\
-  b_1-y-b_2=y \\
-  b_1-b_2=2y \\
-  \frac{b_1-b_2}{2}=y \\
+  b_2=x-y \\ \\
+  y=x-b_2 \\
+  y=b_1-y-b_2 \\
+  2y=b_1-b_2 \\
+  y=\frac{b_1-b_2}{2} \\
 \end{array}
 $$
 
