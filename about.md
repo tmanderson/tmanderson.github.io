@@ -9,7 +9,7 @@ layout: page
 > I have no formal background in anything that I'm writing about -- with that
 > being said, I would highly appreciate corrections, references to relevant material
 > or any pertinent thoughts/experiences of your own. For now you can send this to my
-> [email](mitch@iammitch.com) directly, though I will be adding better means of
+> [email](mailto:mitch@iammitch.com) directly, though I will be adding better means of
 > communication in the future.
 
 <br />
