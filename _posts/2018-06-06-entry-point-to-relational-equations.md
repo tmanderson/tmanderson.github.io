@@ -6,8 +6,6 @@ categories:
 layout: post
 ---
 
-# Entry-Point to Relational Equations
-
 I've been actively working with linear algebra for the past year or so, and this whole time I've always had this deep-seeded feeling that I was still missing some fundamental detail to help explain _why_ multiple equations sharing the same variables can reveal an interrelation between the equations involved.
 
 Recently, while viewing a fantastic [Herbert Gross lecture](https://www.youtube.com/watch?v=MfN1lqArwAg) there was an interesting point made at ~28:14 revealing something I saw as a great entry point to that intuitive relational definition I was looking for.
