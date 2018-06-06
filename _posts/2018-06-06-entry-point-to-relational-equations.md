@@ -35,6 +35,7 @@ $$
 My first thought when seeing the values here was that *x* and *y* both have the appearance of a fractional value. So, quickly intuition (reactionary) seemed to suggest that "maybe these are averages, relative to dimension, represent the weight of each variable". So, in order to see if this was true in the next dimension, I tried three equations in three unknowns:
 
 $$
+\require{cancel}
 \begin{array}{l}
   b_1=x+y+z \\
   x=b_1-y-z \\ \\ \\ \\ \\ \\\\\\\\\\\\
@@ -43,6 +44,7 @@ $$
   2x=b_2+b_3 \\
   x = \frac{b_2+b_3}{2}
 \end{array}
+\hspace{1.5em}
 \begin{array}{l}
   b_2=x-y+z \\ \\
   y=x+z-b_2 \\
@@ -51,6 +53,7 @@ $$
   2y = b_1-b_2 \\
   y =\frac{b_1-b_2}{2} \\ \\\\\\\\\\\\\\\\\\
 \end{array}
+\hspace{1.5em}
 \begin{array}{l}
   b_3=x+y-z \\ \\ \\ \\ \\ \\ \\
   z=x+y-b_3 \\
