@@ -13,6 +13,7 @@ I've been actively working with linear algebra for the past year or so, and this
 Recently, while viewing a fantastic [Herbert Gross lecture](https://www.youtube.com/watch?v=MfN1lqArwAg) there was an interesting point made at ~28:14 revealing something I saw as a great entry point to that intuitive relational definition I was looking for.
 
 So, I started with Mr. Gross' example – solving two of the simplest equations:
+
 $$
 \begin{array}
   bb_1=x+y \\
@@ -29,7 +30,9 @@ $$
   \frac{b_1-b_2}{2}=y \\
 \end{array}
 $$
+
 My first thought when seeing the values here was that *x* and *y* both have the appearance of a fractional value. So, quickly intuition (reactionary) seemed to suggest that "maybe these are averages, relative to dimension, represent the weight of each variable". So, in order to see if this was true in the next dimension, I tried three equations in three unknowns:
+
 $$
 \begin{array}
   bb_1=x+y+z \\
@@ -39,7 +42,6 @@ $$
   2x=b_2+b_3 \\
   x = \frac{b_2+b_3}{2}
 \end{array}
-\hspace{1.5em}
 \begin{array}
   bb_2=x-y+z \\ \\
   y=x+z-b_2 \\
@@ -48,7 +50,6 @@ $$
   2y = b_1-b_2 \\
   y =\frac{b_1-b_2}{2} \\ \\\\\\\\\\\\\\\\\\
 \end{array}
-\hspace{1.5em}
 \begin{array}
   bb_3=x+y-z \\ \\ \\ \\ \\ \\ \\
   z=x+y-b_3 \\
@@ -58,6 +59,7 @@ $$
   z=\frac{b_1-b_3}{2}\\\\\\\\\\
 \end{array}
 $$
+
 My intuition was, unsurprisingly, incorrect. However, what is revealed here was pretty striking to me, while I feel that many who are much more familiar with mathematics than myself may see this as something _given_ or just plain _obvious_, for me this was the "intuitional" foundation I'd been looking for.
 
 Notice the values for each variable are indicative of equations in which the variable exhibits _new information_, which is to say _the sign_ in equation 2 and 3 for *y* and *z* are different than in the other equations in which they appear.
