@@ -14,10 +14,10 @@ $$
 Create a matrix whose rows are $v_1$ and $v_2$
 
 $$
-\textbf{\textbf{M}}=\begin{bmatrix}\textbf{v}_1 \\ \textbf{v}_2\end{bmatrix} =\begin{bmatrix}a&b&c \\ d&e&f\end{bmatrix}
+\textbf{M}=\begin{bmatrix}\textbf{v}_1 \\ \textbf{v}_2\end{bmatrix} =\begin{bmatrix}a&b&c \\ d&e&f\end{bmatrix}
 $$
 
-and ignore each column, and compute the determinant for each sub-matrix(*)[#note-on-the-sign-switch]
+and ignore each column, and compute the determinant for each sub-matrix[*](#note-on-the-sign-switch)
 
 $$
 \require{cancel}
