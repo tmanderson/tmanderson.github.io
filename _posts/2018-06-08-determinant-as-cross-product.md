@@ -1,3 +1,8 @@
+---
+title: Determinant As Cross Product
+date: 2018-06-08 00:00:00 Z
+---
+
 If you're already familiar with determinants (and there's a whole lot of entry points to that one), or more specifically the computation of a determinant using [Laplacian Expansion](https://www.wikiwand.com/en/Laplace_expansion), there's a simple device to recall the cross-product operation.
 
 Given the following row vectors in $\mathbb{R}^3$
