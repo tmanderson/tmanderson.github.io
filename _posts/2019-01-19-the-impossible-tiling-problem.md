@@ -25,7 +25,7 @@ This following problem was phrased to me as
 We define the grid $G$ in initial state $S_0 $ as
 
 $$
-G(n, S_0)=\{\{s_0,s_1,\dots,s_{2n} \}:s\in S_0\}
+G(n, S_0)=\{\{s_0,s_1,\dots,s_{2n} \}:s\in S_0, n\in \mathbb{Z}\}
 $$
 
 Each of the $2^{2n}$ cells (or tiles), $s_n$ is assigned a value of either 0 (=black) or 1 (=white), defined with the given initial state $S_0$.
