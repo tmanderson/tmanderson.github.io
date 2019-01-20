@@ -10,7 +10,6 @@ tags:
 - documenting
 ---
 
-# The Secret Tiling Problem
 This following problem was phrased to me as
 
 > There is a 2^N by 2^N grid of tiles. Each tile is white on one side, and black on the other. The tiles are flipped randomly, so that some are flipped to white, and some are flipped to black.
