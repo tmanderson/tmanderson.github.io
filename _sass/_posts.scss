@@ -8,12 +8,7 @@
 article {
   font-family: "Merriweather", serif;
   padding: 0.8em 0 3em;
-  
-  @media screen and (min-width: 1440px) {
-    columns: 2;
-    column-rule: 1px solid #AAA;
-    column-gap: 8em;
-  }
+  max-width: 960px;
 
   a {
     color: #4183C4; }
