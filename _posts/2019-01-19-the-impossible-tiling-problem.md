@@ -12,7 +12,7 @@ tags:
 
 This following problem was phrased to me as
 
-> There is a 2^N by 2^N grid of tiles. Each tile is white on one side, and black on the other. The tiles are flipped randomly, so that some are flipped to white, and some are flipped to black.
+> There is a $2^n$-by-$2^n$ grid of tiles. Each tile is white on one side, and black on the other. The tiles are flipped randomly, so that some are flipped to white, and some are flipped to black.
 > There are two people. Each one will be brought in to look at the tiles one by one.
 > The first person will be brought in, and the weirdos running the experiment will pick one tile at random.
 > Then, that first person will be allowed to flip one tile over.
