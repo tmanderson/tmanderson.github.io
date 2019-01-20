@@ -23,12 +23,15 @@ This following problem was phrased to me as
 ## Defining the Problem
 
 We define the grid $G$ in initial state $S_0 $ as
+
 $$
 G(n, S_0)=\{\{s_0,s_1,\dots,s_{2n} \}:s\in S_0\}
 $$
+
 Each of the $2^{4n}$ cells (or tiles), $s_n$ is assigned a value of either 0 (=black) or 1 (=white), defined with the given initial state $S_0$.
 
 We will represent the _entire_ state of $G$ with a _binary representation_. For example, we can represent a 2x2 grid as
+
 $$
 G(1,\{0, 1, 1, 1\})=
 \begin{bmatrix}
@@ -37,17 +40,23 @@ G(1,\{0, 1, 1, 1\})=
 \end{bmatrix}
 = {0,1,1,1}=0111=7
 $$
+
 We define a transition $T$ on $G$ as
+
 $$
 T:[0,2^{4n}]\to[0,2^{2n}]
 $$
+
 Where $T$ can only modify the state of _one_ cell. So, $T$ must transition $G$ in any one of $2^{4n}$ initial states into a space containing the _cells_ of $G$.
 
 The transition $T$ can only change the state _of a single cell_. For example, the following would be a _valid_ transition (for $G(1)=2\times2$ grid)
+
 $$
 \{1,1,1,1\}\Rightarrow\{0,1,1,1\} \hspace{1em} \color{green}\checkmark
 $$
+
 While the following is _not valid_
+
 $$
 \{1,1,1,1\}\Rightarrow\{0,0,1,1\} \hspace{1em} \color{red}\times
 $$
@@ -65,6 +74,7 @@ Is there any way to represent _one particular_ cell (the secret) within this gri
 Our solution must take $2^{4n}$ possible values (the possible initial states) and selectively convert them into one of $2^{2n}$ values (the index of the chosen tile). So, what we need to show is, given any possible initial state $S_0$, we can provide a valid transition $T$ to represent any cell within the grid.
 
 With our initial state $S_0$ and the (secret) chosen cell $C$, we can respecify our transition signature
+
 $$
 T:
 \underbrace{[0,2^{4n}]}_{S_0}
@@ -77,6 +87,7 @@ $$
 For the simplest non-trivial case, we consider the case where n = 1, C = 1. That is, a 2x2 grid with the **first cell** chosen as “the secret”.
 
 All of the possible permutations for the initial state, $S_0$ of this grid are
+
 $$
 \begin{align}
 \begin{bmatrix}
@@ -136,7 +147,9 @@ $$
 &=12,13,14,15
 \end{align}
 $$
+
 And we will define our transition as
+
 $$
 T:[0,2^{4}]\to [0, 2^{2}]
 $$
