@@ -28,7 +28,7 @@ $$
 G(n, S_0)=\{\{s_0,s_1,\dots,s_{2n} \}:s\in S_0\}
 $$
 
-Each of the $2^{4n}$ cells (or tiles), $s_n$ is assigned a value of either 0 (=black) or 1 (=white), defined with the given initial state $S_0$.
+Each of the $2^{2n}$ cells (or tiles), $s_n$ is assigned a value of either 0 (=black) or 1 (=white), defined with the given initial state $S_0$.
 
 We will represent the _entire_ state of $G$ with a _binary representation_. For example, we can represent a 2x2 grid as
 
