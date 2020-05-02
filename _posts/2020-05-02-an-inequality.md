@@ -11,7 +11,9 @@ tags:
 - inequality
 ---
 
-$k,n \in \textbf{N}^*$ \hspace{1.5em} $n > k > 0$ \hspace{1.5em} $x \ge y > 0$
+<div style="display:flex;justify-items:space-around;flex-direction:row;">
+$k,n \in \textbf{N}^*$ $n > k > 0$ $x \ge y > 0$
+</div>
 
 $$
 \frac{y^kx^{n-k}}{(x+y)^n}\le\frac{(n-1)^{n-1}}{n^n}
@@ -19,7 +21,7 @@ $$
 
 The smattering of variables makes appeals to the inductionist (particularly that $n$, $n-1$ business) view, but being a aesthetic reductionist, I've gotta make this problem easier on the eyes:
 
-<ol>
+<ol style="font-size:0.8em;">
 	<li>$y^kx^{n-k}\le \frac{(x+y)^n(n-1)^{n-1}}{n^n}</li>
 	<li>$n^n(y^kx^{n-k})\le(x+y)^n(n-1)^{n-1}$</li>
 	<li>$\text{and since }n^n > (n-1)^{n-1}$ for all $n > 0$</li>
@@ -48,7 +50,7 @@ Now, we evaluate our relational cases for the two unbounded (positive) variables
   <tr>
     <td>$y < x$</td>
     <td>$\frac{x}{x+y} < 1$</td>
-    <td>$\frac{x^{k/n}}{y^{k/n}} > 1$<td>
+    <td>$\frac{x^{k/n}}{y^{k/n}} > 1$</td>
   </tr>
   <tr>
     <td>$y > x$</td>
@@ -57,7 +59,6 @@ Now, we evaluate our relational cases for the two unbounded (positive) variables
   </tr>
 </tbody>
 </table>
-$$
 
 The last row has overlap, but one look at the LHS of the inequality, and we see that as $y$ gets larger, the inequality $\frac{x}{x+y}<\frac{x^{k/n}}{y^{k/n}}$ holds in the limit $y\to\infty$
 
