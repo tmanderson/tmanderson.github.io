@@ -11,7 +11,7 @@ tags:
 - inequality
 ---
 
-<div style="display:flex;justify-items:space-around;flex-direction:row;">
+<div style="display:flex;justify-content:space-around;flex-direction:row;">
 $k,n \in \textbf{N}^*$ $n > k > 0$ $x \ge y > 0$
 </div>
 
