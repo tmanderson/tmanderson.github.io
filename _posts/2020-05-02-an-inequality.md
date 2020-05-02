@@ -12,7 +12,6 @@ tags:
 ---
 
 $k,n \in \textbf{N}^*$ \hspace{1.5em} $n > k > 0$ \hspace{1.5em} $x \ge y > 0$
-\\
 
 $$
 \frac{y^kx^{n-k}}{(x+y)^n}\le\frac{(n-1)^{n-1}}{n^n}
