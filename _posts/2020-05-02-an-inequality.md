@@ -22,7 +22,7 @@ $$
 The smattering of variables makes appeals to the inductionist (particularly that $n$, $n-1$ business) view, but being a aesthetic reductionist, I've gotta make this problem easier on the eyes:
 
 <ol style="font-size:0.8em;">
-	<li>$y^kx^{n-k}\le \frac{(x+y)^n(n-1)^{n-1}}{n^n}</li>
+	<li>$y^kx^{n-k}\le \frac{(x+y)^n(n-1)^{n-1}}{n^n}$</li>
 	<li>$n^n(y^kx^{n-k})\le(x+y)^n(n-1)^{n-1}$</li>
 	<li>$\text{and since }n^n > (n-1)^{n-1}$ for all $n > 0$</li>
 	<li>$\text{letting us focus on } (y^kx^{n-k})<(x+y)^n$</li>
